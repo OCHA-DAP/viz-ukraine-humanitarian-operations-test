@@ -73,6 +73,7 @@ $( document ).ready(function() {
     initMap();
   }
 
+
   function getData() {
     console.log('Loading data...')
     Promise.all([
