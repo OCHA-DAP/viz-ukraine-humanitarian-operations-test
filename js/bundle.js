@@ -1581,10 +1581,11 @@ $( document ).ready(function() {
     initMap();
   }
 
+
   function getData() {
     console.log('Loading data...')
     Promise.all([
-      d3.json('https://raw.githubusercontent.com/OCHA-DAP/hdx-scraper-ukraine-viz/main/all.json'),
+      d3.json('https://raw.githubusercontent.com/OCHA-DAP/hdx-scraper-ukraine-viz/a508571cdc2b0b42984e32787add376012a7ef3b/all.json'),
       d3.json('https://raw.githubusercontent.com/OCHA-DAP/hdx-scraper-ukraine-viz/main/UKR_Border_Crossings.geojson'),
       d3.json('data/ee-regions-bbox.geojson'),
       d3.json('data/ukr_refugee_lines.geojson'),
