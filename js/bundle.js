@@ -1585,7 +1585,7 @@ $( document ).ready(function() {
   function getData() {
     console.log('Loading data...')
     Promise.all([
-      d3.json('https://raw.githubusercontent.com/OCHA-DAP/hdx-scraper-ukraine-viz/e1a30d72693d23c377df57c6b4f82a22d5f6eb82/all.json'),
+      d3.json('https://raw.githubusercontent.com/OCHA-DAP/hdx-scraper-ukraine-viz/be7517d2b8b795e3d690bb69a027f06c69989df7/all.json'),
       d3.json('https://raw.githubusercontent.com/OCHA-DAP/hdx-scraper-ukraine-viz/main/UKR_Border_Crossings.geojson'),
       d3.json('data/ee-regions-bbox.geojson'),
       d3.json('data/ukr_refugee_lines.geojson'),
